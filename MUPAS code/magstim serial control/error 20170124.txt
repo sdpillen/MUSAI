@@ -1,0 +1,20 @@
+Waiting for -0.058
+Triggered stimulators: 0 & 0 at times: 0 & 0.002
+Finished
+Epoch 59/60, time = 212.2 s
+ 
+Waiting for -1.058
+Triggered stimulators: 0 & 0 at times: 0 & 0.002
+Finished
+Epoch 60/60, time = 215.349 s
+ 
+Waiting for -0.141
+Index exceeds matrix dimensions.
+
+Error in PIP_EEGcalibration (line 156)
+    EEG.amp(j,:) = data.trial{j}(4,:);
+
+
+---------------------------------------
+
+

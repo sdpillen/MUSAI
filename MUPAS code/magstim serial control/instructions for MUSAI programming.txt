@@ -1,0 +1,74 @@
+eegtriggertest is older
+
+	updating figure in current MUPAS makes it obsolete
+
+	disabling the stimulators is sufficient to serve its function
+
+	implement flag check in main experiment code 
+
+	one line in the code that checks whether a certain parameter in INFO ie sham or dontstim, set intensity to 0
+
+	lower number of trials 
+
+SEPs stay as they are
+
+MEP code is most likely obsolete.  regardless, implement MagVenture toolbox compatibility.  genericize it 
+
+separate folder: GenericTMSFunc or similar
+
+SAI curve: MuSICI (called pip) code has a similar function I/O code.  isolate and genericize it
+
+	OR more generic paired pulse function.  stimulation intensity of the 2 pulses and ISI is what makes it one type versus another.  paired pulse curve generation, based on one parameter, either 1st or 2nd pulse intensity.  ISI can also be the independent variable.  this function could also include the Median nerve stimulation, which would need a manual notification.
+
+it could also include double coil experiments.  lower priority
+
+dont hardcode parameters we could possibly want to change later.  
+
+paired pulse requires 2 capacitors.  MAGVENTURE has 2 capacitors.  MagStim has either bipulse or the multiple stim setup.
+
+future prospects: MagStim/venture wrapper?
+
+warning: there is a distribution of the multiple stimulator functions.  to unify them, these must all be identified and changed to 1
+
+separate MEP curve function? we could disable the generic SAI curve's 1st stim
+
+possibility of matrix output for 2 dimensional IO curve variables
+
+existing MUPEX threshoildhunting assumes different stimulators set to 1 step higher or lower
+
+	unify.  keep the essential logic.  part of the code that increases or decreases will be retained
+	
+the 1 mV threshold is not working so well.  
+
+RMT requires finer grain 1% or so. but for the response curve, we want steps of 5%.
+
+brainstate met, fire stimulator generic function.  this describes all the experiments we do.  
+
+	power and phase values.  SEP condition: certain fixed power range with phase modulation.  elec instead of TMS.  
+	
+	times are the 2 actual delays relative to the detection in seconds
+	
+	open question: can it send to the same stimulator twice?
+	
+Discuss with Zrenner: update simulink in BNP2 to modern version?  also on the host computer
+	get simulink of the same version as target PC?
+	
+	Ask him if code is backwards compatible
+
+	there may be new functions in 2017 or further
+	
+pausing the matlab and maintenance poling to keep the device active
+
+use varargin in unified function for simulink communication
+	include closedloopmode.  it would need varargin
+	
+	which host scopes as an input variable. send it in as 'EEG' or 'EMG', and define the variables from there
+	
+	
+set input type to external
+
+
+
+
+
+

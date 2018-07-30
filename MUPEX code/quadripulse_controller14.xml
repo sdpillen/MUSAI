@@ -1,0 +1,5310 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+
+          <SubSystem>
+    <Name> Amplitude</Name>
+    <xPCName>quadripulse_controller14/ Amplitude</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Amplitude Interval Scope</Name>
+    <xPCName>quadripulse_controller14/Amplitude Interval Scope</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Average Refernce</Name>
+    <xPCName>quadripulse_controller14/Average Refernce</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Average Refernce/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Average Refernce/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Mean</sigName>
+              <xpcsigName>Average Refernce/Mean</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Subtract</sigName>
+              <xpcsigName>Average Refernce/Subtract</xpcsigName>
+              <sigWidth>65</sigWidth>
+              <sigDim>[1, 65]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Compare
+To Constant</Name>
+    <xPCName>quadripulse_controller14/Compare To Constant</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Compare To Constant/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Constant/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Compare To Constant/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Compare
+To Constant1</Name>
+    <xPCName>quadripulse_controller14/Compare To Constant1</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Compare To Constant1/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Constant1/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Compare To Constant1/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Compare
+To Constant2</Name>
+    <xPCName>quadripulse_controller14/Compare To Constant2</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Compare To Constant2/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Constant2/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Compare To Constant2/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Compare
+To Constant3</Name>
+    <xPCName>quadripulse_controller14/Compare To Constant3</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Compare To Constant3/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Constant3/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Compare To Constant3/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Compare
+To Zero</Name>
+    <xPCName>quadripulse_controller14/Compare To Zero</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Compare To Zero/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Zero/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Compare To Zero/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>De-Mean</Name>
+    <xPCName>quadripulse_controller14/De-Mean</xPCName>
+    
+    
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Mean</sigName>
+              <xpcsigName>De-Mean/Mean</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Subtract</sigName>
+              <xpcsigName>De-Mean/Subtract</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Detrend and FFT</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT</xPCName>
+        <SubSystem>
+    <Name>Constant5</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT/Constant5</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Detrend and FFT/Constant5/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Detrend and FFT/Constant5/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[100, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Constant</sigName>
+              <xpcsigName>Detrend and FFT/Constant5/Constant</xpcsigName>
+              <sigWidth>200</sigWidth>
+              <sigDim>[100, 2]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Detrend</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT/Detrend</xPCName>
+        <SubSystem>
+    <Name>Check Signal
+Attributes</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT/Detrend/Check Signal Attributes</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Error If Not
+Floating-Point</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT/Detrend/Error If Not Floating-Point</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>If Action
+Subsystem</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT/Detrend/If Action Subsystem</xPCName>
+    
+    
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term1</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem/linear term1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term2</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem/linear term2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term3</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem/linear term3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term4</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem/linear term4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term5</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem/linear term5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term6</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem/linear term6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem/Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum4</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem/Sum4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>If Action
+Subsystem1</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT/Detrend/If Action Subsystem1</xPCName>
+    
+    
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Inherit
+Complexity</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem1/Inherit Complexity</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Multiport
+Selector</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/If Action Subsystem1/Multiport Selector</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Inherit
+Frame Status</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT/Detrend/Inherit Frame Status</xPCName>
+    
+    
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Inherit</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Inherit Frame Status/Inherit</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+    
+
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Merge</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Merge</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>a</sigLabel>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Merge1</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Merge1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>b</sigLabel>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term1</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/linear term1</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term2</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/linear term2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>linear term3</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/linear term3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Reshape</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Reshape</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Constant Ramp</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Constant Ramp</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+                <sigLabel>ramp</sigLabel>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Maximum</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Maximum</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Matrix
+Sum1</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Matrix Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Matrix
+Sum2</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Matrix Sum2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum4</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Sum4</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum5</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Sum5</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Dot Product</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Dot Product</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Dot Product2</sigName>
+              <xpcsigName>Detrend and FFT/Detrend/Dot Product2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Magnitude
+FFT</Name>
+    <xPCName>quadripulse_controller14/Detrend and FFT/Magnitude FFT</xPCName>
+    
+    
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Magnitude
+Squared</sigName>
+              <xpcsigName>Detrend and FFT/Magnitude FFT/Magnitude Squared</xpcsigName>
+              <sigWidth>1024</sigWidth>
+              <sigDim>[1024, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+
+    </SubSystem>
+
+    
+ 
+            <block>
+            <blkName>Constant5</blkName>
+            <xpcblkName>Detrend and FFT/Constant5</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Detrend and FFT/Constant5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[100, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+ 
+            <block>
+            <blkName>scale to per Hz</blkName>
+            <xpcblkName>Detrend and FFT/scale to per Hz</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Detrend and FFT/scale to per Hz</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+ 
+            <block>
+            <blkName>Pad</blkName>
+            <xpcblkName>Detrend and FFT/Pad</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Detrend and FFT/Pad</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>padVal</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>outDims</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>padBefore</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>padAfter</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>inWorkAdd</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>outWorkAdd</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>padVal</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+ 
+            <block>
+            <blkName>Unbuffer</blkName>
+            <xpcblkName>Detrend and FFT/Unbuffer</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Detrend and FFT/Unbuffer</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ic</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Matrix
+Concatenation</sigName>
+              <xpcsigName>Detrend and FFT/Matrix Concatenation</xpcsigName>
+              <sigWidth>200</sigWidth>
+              <sigDim>[100, 2]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>scale to per Hz</sigName>
+              <xpcsigName>Detrend and FFT/scale to per Hz</xpcsigName>
+              <sigWidth>1024</sigWidth>
+              <sigDim>[1024, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Divide</sigName>
+              <xpcsigName>Detrend and FFT/Divide</xpcsigName>
+              <sigWidth>1024</sigWidth>
+              <sigDim>[1024, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Rate Transition2</sigName>
+              <xpcsigName>Detrend and FFT/Rate Transition2</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Rate Transition3</sigName>
+              <xpcsigName>Detrend and FFT/Rate Transition3</xpcsigName>
+              <sigWidth>1024</sigWidth>
+              <sigDim>[1024, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Selector</sigName>
+              <xpcsigName>Detrend and FFT/Selector</xpcsigName>
+              <sigWidth>1024</sigWidth>
+              <sigDim>[1024, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Bins 2..51</sigName>
+              <xpcsigName>Detrend and FFT/Bins 2..51</xpcsigName>
+              <sigWidth>200</sigWidth>
+              <sigDim>[100, 2]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data</sigName>
+              <xpcsigName>Detrend and FFT/Data</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Mean</sigName>
+              <xpcsigName>Detrend and FFT/Mean</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Pad</sigName>
+              <xpcsigName>Detrend and FFT/Pad</xpcsigName>
+              <sigWidth>1024</sigWidth>
+              <sigDim>[1024, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Trigger Signal</sigName>
+              <xpcsigName>Detrend and FFT/Trigger Signal</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Window
+Function/p1</sigName>
+              <xpcsigName>Detrend and FFT/Window Function/p1</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Window
+Function/p2</sigName>
+              <xpcsigName>Detrend and FFT/Window Function/p2</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum of
+Elements</sigName>
+              <xpcsigName>Detrend and FFT/Sum of Elements</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Unbuffer</sigName>
+              <xpcsigName>Detrend and FFT/Unbuffer</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[1, 2]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>EEG Host</Name>
+    <xPCName>quadripulse_controller14/EEG Host</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>EEG Host1</Name>
+    <xPCName>quadripulse_controller14/EEG Host1</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>EEG Host3</Name>
+    <xPCName>quadripulse_controller14/EEG Host3</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>EEG Raw</Name>
+    <xPCName>quadripulse_controller14/EEG Raw</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>EMG Host </Name>
+    <xPCName>quadripulse_controller14/EMG Host </xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Fan Out with Offset for Scope Display
+</Name>
+    <xPCName>quadripulse_controller14/Fan Out with Offset for Scope Display </xPCName>
+        <SubSystem>
+    <Name>Running Average</Name>
+    <xPCName>quadripulse_controller14/Fan Out with Offset for Scope Display /Running Average</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Fan Out with Offset for Scope Display /Running Average/Gain</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Fan Out with Offset for Scope Display /Running Average/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>N</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+ 
+            <block>
+            <blkName>Delay</blkName>
+            <xpcblkName>Fan Out with Offset for Scope Display /Running Average/Delay</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Fan Out with Offset for Scope Display /Running Average/Delay</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>DelayLength</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Delay1</blkName>
+            <xpcblkName>Fan Out with Offset for Scope Display /Running Average/Delay1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Fan Out with Offset for Scope Display /Running Average/Delay1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>DelayLength</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Fan Out with Offset for Scope Display /Running Average/Gain</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[1, 5]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Add</sigName>
+              <xpcsigName>Fan Out with Offset for Scope Display /Running Average/Add</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[1, 5]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Delay</sigName>
+              <xpcsigName>Fan Out with Offset for Scope Display /Running Average/Delay</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[1, 5]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Delay1</sigName>
+              <xpcsigName>Fan Out with Offset for Scope Display /Running Average/Delay1</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[1, 5]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+ 
+            <block>
+            <blkName>Running Average</blkName>
+            <xpcblkName>Fan Out with Offset for Scope Display /Running Average</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Fan Out with Offset for Scope Display /Running Average</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>N</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Rate Transition</sigName>
+              <xpcsigName>Fan Out with Offset for Scope Display /Rate Transition</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[1, 5]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Constant Ramp</sigName>
+              <xpcsigName>Fan Out with Offset for Scope Display /Constant Ramp</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Add</sigName>
+              <xpcsigName>Fan Out with Offset for Scope Display /Add</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[1, 5]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Zero-Order
+Hold</sigName>
+              <xpcsigName>Fan Out with Offset for Scope Display /Zero-Order Hold</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[1, 5]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Forward and Backward Band Pass Filter</Name>
+    <xPCName>quadripulse_controller14/Forward and Backward Band Pass Filter</xPCName>
+    
+    
+
+
+ 
+            <block>
+            <blkName>FIR Bandpass Filter Backward</blkName>
+            <xpcblkName>Forward and Backward Band Pass Filter/FIR Bandpass Filter Backward</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Forward and Backward Band Pass Filter/FIR Bandpass Filter Backward</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialStates</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>FIR Bandpass Filter Forward</blkName>
+            <xpcblkName>Forward and Backward Band Pass Filter/FIR Bandpass Filter Forward</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Forward and Backward Band Pass Filter/FIR Bandpass Filter Forward</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialStates</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Flip</sigName>
+              <xpcsigName>Forward and Backward Band Pass Filter/Flip</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Re-Flip</sigName>
+              <xpcsigName>Forward and Backward Band Pass Filter/Re-Flip</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>FIR Bandpass Filter Backward</sigName>
+              <xpcsigName>Forward and Backward Band Pass Filter/FIR Bandpass Filter Backward</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>FIR Bandpass Filter Forward</sigName>
+              <xpcsigName>Forward and Backward Band Pass Filter/FIR Bandpass Filter Forward</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Hjorth &amp; Hjorth Filtered &amp; Now</Name>
+    <xPCName>quadripulse_controller14/Hjorth &amp; Hjorth Filtered &amp; Now</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Real-time UDP 
+Configuration</Name>
+    <xPCName>quadripulse_controller14/Real-time UDP  Configuration</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>ARP Init </blkName>
+            <xpcblkName>Real-time UDP  Configuration/ARP Init </xpcblkName>
+            <SLblockPath>quadripulse_controller14/Real-time UDP  Configuration/ARP Init </SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P10</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P11</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P16</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Buffer Mngmt </blkName>
+            <xpcblkName>Real-time UDP  Configuration/Buffer Mngmt </xpcblkName>
+            <SLblockPath>quadripulse_controller14/Real-time UDP  Configuration/Buffer Mngmt </SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 4]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Ethernet Init </blkName>
+            <xpcblkName>Real-time UDP  Configuration/Ethernet Init </xpcblkName>
+            <SLblockPath>quadripulse_controller14/Real-time UDP  Configuration/Ethernet Init </SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 6]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P10</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P11</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P12</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P13</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P14</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P15</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P16</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P17</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P18</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P20</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P21</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>IP Init </blkName>
+            <xpcblkName>Real-time UDP  Configuration/IP Init </xpcblkName>
+            <SLblockPath>quadripulse_controller14/Real-time UDP  Configuration/IP Init </SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P10</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P11</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P12</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>UDP Init </blkName>
+            <xpcblkName>Real-time UDP  Configuration/UDP Init </xpcblkName>
+            <SLblockPath>quadripulse_controller14/Real-time UDP  Configuration/UDP Init </SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>S-R
+Flip-Flop</Name>
+    <xPCName>quadripulse_controller14/S-R Flip-Flop</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Logic</blkName>
+            <xpcblkName>S-R Flip-Flop/Logic</xpcblkName>
+            <SLblockPath>quadripulse_controller14/S-R Flip-Flop/Logic</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>TruthTable</paramName>
+          <dim>[8, 2]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Memory</blkName>
+            <xpcblkName>S-R Flip-Flop/Memory</xpcblkName>
+            <SLblockPath>quadripulse_controller14/S-R Flip-Flop/Memory</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>initial_condition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Logic</sigName>
+              <xpcsigName>S-R Flip-Flop/Logic</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Memory</sigName>
+              <xpcsigName>S-R Flip-Flop/Memory</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Safety Check</Name>
+    <xPCName>quadripulse_controller14/Safety Check</xPCName>
+        <SubSystem>
+    <Name>4-into-1 Unit Limit</Name>
+    <xPCName>quadripulse_controller14/Safety Check/4-into-1 Unit Limit</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Safety Check/4-into-1 Unit Limit/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Safety Check/4-into-1 Unit Limit/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Safety Check/4-into-1 Unit Limit/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+ 
+            <block>
+            <blkName>4-into-1 Unit Limit</blkName>
+            <xpcblkName>Safety Check/4-into-1 Unit Limit</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Safety Check/4-into-1 Unit Limit</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>MinMax</sigName>
+              <xpcsigName>Safety Check/MinMax</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Times 1..end-1</sigName>
+              <xpcsigName>Safety Check/Times 1..end-1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Times 2..end</sigName>
+              <xpcsigName>Safety Check/Times 2..end</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Subtract</sigName>
+              <xpcsigName>Safety Check/Subtract</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Spectrum Scope </Name>
+    <xPCName>quadripulse_controller14/Spectrum Scope </xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Subsystem</Name>
+    <xPCName>quadripulse_controller14/Subsystem</xPCName>
+        <SubSystem>
+    <Name>Enabled
+Subsystem</Name>
+    <xPCName>quadripulse_controller14/Subsystem/Enabled Subsystem</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Out1</blkName>
+            <xpcblkName>Subsystem/Enabled Subsystem/Out1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Enabled Subsystem/Out1</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Buffer</blkName>
+            <xpcblkName>Subsystem/Enabled Subsystem/Buffer</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Enabled Subsystem/Buffer</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ic</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Buffer</sigName>
+              <xpcsigName>Subsystem/Enabled Subsystem/Buffer</xpcsigName>
+              <sigWidth>600</sigWidth>
+              <sigDim>[600, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Prolonged Disable</Name>
+    <xPCName>quadripulse_controller14/Subsystem/Prolonged Disable</xPCName>
+        <SubSystem>
+    <Name>Compare
+To Zero</Name>
+    <xPCName>quadripulse_controller14/Subsystem/Prolonged Disable/Compare To Zero</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Subsystem/Prolonged Disable/Compare To Zero/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Prolonged Disable/Compare To Zero/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Subsystem/Prolonged Disable/Compare To Zero/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+
+ 
+            <block>
+            <blkName>One</blkName>
+            <xpcblkName>Subsystem/Prolonged Disable/One</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Prolonged Disable/One</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Zero</blkName>
+            <xpcblkName>Subsystem/Prolonged Disable/Zero</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Prolonged Disable/Zero</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+ 
+            <block>
+            <blkName>Seconds</blkName>
+            <xpcblkName>Subsystem/Prolonged Disable/Seconds</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Prolonged Disable/Seconds</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+ 
+            <block>
+            <blkName>Keep Postive Switch</blkName>
+            <xpcblkName>Subsystem/Prolonged Disable/Keep Postive Switch</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Prolonged Disable/Keep Postive Switch</SLblockPath>
+            <isSrc>[0 3 1]</isSrc>
+          <parameter>
+          <paramName>Threshold</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+ 
+            <block>
+            <blkName>Unit Delay</blkName>
+            <xpcblkName>Subsystem/Prolonged Disable/Unit Delay</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Prolonged Disable/Unit Delay</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Weighted
+Sample Time</blkName>
+            <xpcblkName>Subsystem/Prolonged Disable/Weighted Sample Time</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Prolonged Disable/Weighted Sample Time</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>WtEt</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion</sigName>
+              <xpcsigName>Subsystem/Prolonged Disable/Data Type Conversion</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Seconds</sigName>
+              <xpcsigName>Subsystem/Prolonged Disable/Seconds</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum</sigName>
+              <xpcsigName>Subsystem/Prolonged Disable/Sum</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Keep Postive Switch</sigName>
+              <xpcsigName>Subsystem/Prolonged Disable/Keep Postive Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Set Counter Switch</sigName>
+              <xpcsigName>Subsystem/Prolonged Disable/Set Counter Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Unit Delay</sigName>
+              <xpcsigName>Subsystem/Prolonged Disable/Unit Delay</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Weighted
+Sample Time</sigName>
+              <xpcsigName>Subsystem/Prolonged Disable/Weighted Sample Time</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+
+
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Subsystem/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Subsystem/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Probe</sigName>
+              <xpcsigName>Subsystem/Probe</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Multiply</sigName>
+              <xpcsigName>Subsystem/Multiply</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Rate Transition</sigName>
+              <xpcsigName>Subsystem/Rate Transition</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Reshape1</sigName>
+              <xpcsigName>Subsystem/Reshape1</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Rounding
+Function</sigName>
+              <xpcsigName>Subsystem/Rounding Function</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Selector</sigName>
+              <xpcsigName>Subsystem/Selector</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sort</sigName>
+              <xpcsigName>Subsystem/Sort</xpcsigName>
+              <sigWidth>600</sigWidth>
+              <sigDim>[600, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Subtract</sigName>
+              <xpcsigName>Subsystem/Subtract</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Time Series Forecast</Name>
+    <xPCName>quadripulse_controller14/Time Series Forecast</xPCName>
+        <SubSystem>
+    <Name>Forecast of 128 samples</Name>
+    <xPCName>quadripulse_controller14/Time Series Forecast/Forecast of 128 samples</xPCName>
+        <SubSystem>
+    <Name>Forecast</Name>
+    <xPCName>quadripulse_controller14/Time Series Forecast/Forecast of 128 samples/Forecast</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Forecast</blkName>
+            <xpcblkName>Time Series Forecast/Forecast of 128 samples/Forecast/Forecast</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Time Series Forecast/Forecast of 128 samples/Forecast/Forecast</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+ 
+            <block>
+            <blkName>For Iterator</blkName>
+            <xpcblkName>Time Series Forecast/Forecast of 128 samples/Forecast/For Iterator</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Time Series Forecast/Forecast of 128 samples/Forecast/For Iterator</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>IterationLimit</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+ 
+            <block>
+            <blkName>Saturation</blkName>
+            <xpcblkName>Time Series Forecast/Forecast of 128 samples/Forecast/Saturation</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Time Series Forecast/Forecast of 128 samples/Forecast/Saturation</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>num_iterations</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>LowerLimit</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+ 
+            <block>
+            <blkName>Unit Delay</blkName>
+            <xpcblkName>Time Series Forecast/Forecast of 128 samples/Forecast/Unit Delay</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Time Series Forecast/Forecast of 128 samples/Forecast/Unit Delay</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Unit Delay1</blkName>
+            <xpcblkName>Time Series Forecast/Forecast of 128 samples/Forecast/Unit Delay1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Time Series Forecast/Forecast of 128 samples/Forecast/Unit Delay1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Assignment</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Assignment</xpcsigName>
+              <sigWidth>128</sigWidth>
+              <sigDim>[128, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Flip</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Flip</xpcsigName>
+              <sigWidth>30</sigWidth>
+              <sigDim>[30, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>For Iterator</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/For Iterator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Frame Length</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Frame Length</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Number of Coefficients</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Number of Coefficients</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Saturation</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Saturation</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Constant Ramp</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Constant Ramp</xpcsigName>
+              <sigWidth>30</sigWidth>
+              <sigDim>[30, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>First Element</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/First Element</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Second to Last</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Second to Last</xpcsigName>
+              <sigWidth>30</sigWidth>
+              <sigDim>[30, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Variable
+Selector</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Variable Selector</xpcsigName>
+              <sigWidth>30</sigWidth>
+              <sigDim>[30, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Add</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Add</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Sum</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Sum1</xpcsigName>
+              <sigWidth>30</sigWidth>
+              <sigDim>[30, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Dot Product</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Dot Product</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Unit Delay</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Unit Delay</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Unit Delay1</sigName>
+              <xpcsigName>Time Series Forecast/Forecast of 128 samples/Forecast/Unit Delay1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+
+
+    
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Yule-Walker AR
+Estimator</Name>
+    <xPCName>quadripulse_controller14/Time Series Forecast/Yule-Walker AR Estimator</xPCName>
+        <SubSystem>
+    <Name>Error If Not
+Floating-Point</Name>
+    <xPCName>quadripulse_controller14/Time Series Forecast/Yule-Walker AR Estimator/Error If Not Floating-Point</xPCName>
+    
+    
+
+
+    
+    
+
+
+    </SubSystem>
+
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Autocorrelation</sigName>
+              <xpcsigName>Time Series Forecast/Yule-Walker AR Estimator/Autocorrelation</xpcsigName>
+              <sigWidth>31</sigWidth>
+              <sigDim>[31, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Levinson-Durbin/p1</sigName>
+              <xpcsigName>Time Series Forecast/Yule-Walker AR Estimator/Levinson-Durbin/p1</xpcsigName>
+              <sigWidth>31</sigWidth>
+              <sigDim>[31, 1]</sigDim>
+            </signal>
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Levinson-Durbin/p2</sigName>
+              <xpcsigName>Time Series Forecast/Yule-Walker AR Estimator/Levinson-Durbin/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+ 
+            <block>
+            <blkName>Forecast of 128 samples</blkName>
+            <xpcblkName>Time Series Forecast/Forecast of 128 samples</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Time Series Forecast/Forecast of 128 samples</SLblockPath>
+            <isSrc>[0 2 1]</isSrc>
+          <parameter>
+          <paramName>num_iterations</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Trigger Condition</Name>
+    <xPCName>quadripulse_controller14/Trigger Condition</xPCName>
+        <SubSystem>
+    <Name>Crossing Detector</Name>
+    <xPCName>quadripulse_controller14/Trigger Condition/Crossing Detector</xPCName>
+        <SubSystem>
+    <Name>Difference</Name>
+    <xPCName>quadripulse_controller14/Trigger Condition/Crossing Detector/Difference</xPCName>
+    
+    
+
+ 
+            <block>
+            <blkName>UD</blkName>
+            <xpcblkName>Trigger Condition/Crossing Detector/Difference/UD</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Condition/Crossing Detector/Difference/UD</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevInput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Diff</sigName>
+              <xpcsigName>Trigger Condition/Crossing Detector/Difference/Diff</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>UD</sigName>
+              <xpcsigName>Trigger Condition/Crossing Detector/Difference/UD</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>U(k-1)</sigLabel>
+            </signal>
+
+    </SubSystem>
+
+    
+ 
+            <block>
+            <blkName>Difference</blkName>
+            <xpcblkName>Trigger Condition/Crossing Detector/Difference</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Condition/Crossing Detector/Difference</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ICPrevInput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Hit 
+Crossing</blkName>
+            <xpcblkName>Trigger Condition/Crossing Detector/Hit  Crossing</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Condition/Crossing Detector/Hit  Crossing</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>HitCrossingOffset</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Hit 
+Crossing1</blkName>
+            <xpcblkName>Trigger Condition/Crossing Detector/Hit  Crossing1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Condition/Crossing Detector/Hit  Crossing1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>HitCrossingOffset</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Hit 
+Crossing2</blkName>
+            <xpcblkName>Trigger Condition/Crossing Detector/Hit  Crossing2</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Condition/Crossing Detector/Hit  Crossing2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>HitCrossingOffset</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Hit 
+Crossing3</blkName>
+            <xpcblkName>Trigger Condition/Crossing Detector/Hit  Crossing3</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Condition/Crossing Detector/Hit  Crossing3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>HitCrossingOffset</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Hit 
+Crossing</sigName>
+              <xpcsigName>Trigger Condition/Crossing Detector/Hit  Crossing</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Hit 
+Crossing1</sigName>
+              <xpcsigName>Trigger Condition/Crossing Detector/Hit  Crossing1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Hit 
+Crossing2</sigName>
+              <xpcsigName>Trigger Condition/Crossing Detector/Hit  Crossing2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Hit 
+Crossing3</sigName>
+              <xpcsigName>Trigger Condition/Crossing Detector/Hit  Crossing3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Trigger Condition/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Condition/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Trigger Condition Met</sigName>
+              <xpcsigName>Trigger Condition/Trigger Condition Met</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Within Range</sigName>
+              <xpcsigName>Trigger Condition/Within Range</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Index
+Vector</sigName>
+              <xpcsigName>Trigger Condition/Index Vector</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>&lt;= max</sigName>
+              <xpcsigName>Trigger Condition/&lt;= max</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>&gt;= min</sigName>
+              <xpcsigName>Trigger Condition/&gt;= min</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Trigger Generator</Name>
+    <xPCName>quadripulse_controller14/Trigger Generator</xPCName>
+        <SubSystem>
+    <Name>Counter
+Free-Running</Name>
+    <xPCName>quadripulse_controller14/Trigger Generator/Counter Free-Running</xPCName>
+        <SubSystem>
+    <Name>Increment
+Real World</Name>
+    <xPCName>quadripulse_controller14/Trigger Generator/Counter Free-Running/Increment Real World</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>FixPt
+Constant</blkName>
+            <xpcblkName>Trigger Generator/Counter Free-Running/Increment Real World/FixPt Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Counter Free-Running/Increment Real World/FixPt Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>FixPt
+Sum1</sigName>
+              <xpcsigName>Trigger Generator/Counter Free-Running/Increment Real World/FixPt Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Wrap To Zero</Name>
+    <xPCName>quadripulse_controller14/Trigger Generator/Counter Free-Running/Wrap To Zero</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Trigger Generator/Counter Free-Running/Wrap To Zero/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Counter Free-Running/Wrap To Zero/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>FixPt
+Switch</blkName>
+            <xpcblkName>Trigger Generator/Counter Free-Running/Wrap To Zero/FixPt Switch</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Counter Free-Running/Wrap To Zero/FixPt Switch</SLblockPath>
+            <isSrc>[0 3 1]</isSrc>
+          <parameter>
+          <paramName>Threshold</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>FixPt
+Switch</sigName>
+              <xpcsigName>Trigger Generator/Counter Free-Running/Wrap To Zero/FixPt Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+    </SubSystem>
+
+    
+
+ 
+            <block>
+            <blkName>Wrap To Zero</blkName>
+            <xpcblkName>Trigger Generator/Counter Free-Running/Wrap To Zero</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Counter Free-Running/Wrap To Zero</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Threshold</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+ 
+            <block>
+            <blkName>Output</blkName>
+            <xpcblkName>Trigger Generator/Counter Free-Running/Output</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Counter Free-Running/Output</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Output</sigName>
+              <xpcsigName>Trigger Generator/Counter Free-Running/Output</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+ 
+            <block>
+            <blkName>Channel</blkName>
+            <xpcblkName>Trigger Generator/Channel</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Channel</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+ 
+            <block>
+            <blkName>Zero</blkName>
+            <xpcblkName>Trigger Generator/Zero</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Zero</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+ 
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Trigger Generator/Gain</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+            <block>
+            <blkName>Counter Delay</blkName>
+            <xpcblkName>Trigger Generator/Counter Delay</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Trigger Generator/Counter Delay</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>DelayLength</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>Trigger Generator/Data Type Conversion1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion4</sigName>
+              <xpcsigName>Trigger Generator/Data Type Conversion4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Trigger Generator/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Logical
+Operator</sigName>
+              <xpcsigName>Trigger Generator/Logical Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Channel Index</sigName>
+              <xpcsigName>Trigger Generator/Channel Index</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Time Index</sigName>
+              <xpcsigName>Trigger Generator/Time Index</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Bounds check</sigName>
+              <xpcsigName>Trigger Generator/Bounds check</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Relational
+Operator</sigName>
+              <xpcsigName>Trigger Generator/Relational Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Channel Data</sigName>
+              <xpcsigName>Trigger Generator/Channel Data</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Time Data</sigName>
+              <xpcsigName>Trigger Generator/Time Data</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Sum</sigName>
+              <xpcsigName>Trigger Generator/Sum</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Saturate</sigName>
+              <xpcsigName>Trigger Generator/Saturate</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Switch</sigName>
+              <xpcsigName>Trigger Generator/Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Width</sigName>
+              <xpcsigName>Trigger Generator/Width</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Counter Delay</sigName>
+              <xpcsigName>Trigger Generator/Counter Delay</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>UDP EEG Data</Name>
+    <xPCName>quadripulse_controller14/UDP EEG Data</xPCName>
+        <SubSystem>
+    <Name>Receive 1</Name>
+    <xPCName>quadripulse_controller14/UDP EEG Data/Receive 1</xPCName>
+    
+    
+ 
+            <block>
+            <blkName>Buffer 1</blkName>
+            <xpcblkName>UDP EEG Data/Receive 1/Buffer 1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/UDP EEG Data/Receive 1/Buffer 1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Extract 1</blkName>
+            <xpcblkName>UDP EEG Data/Receive 1/Extract 1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/UDP EEG Data/Receive 1/Extract 1</SLblockPath>
+            <isSrc>[0 1 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>UDP Consume 1</blkName>
+            <xpcblkName>UDP EEG Data/Receive 1/UDP Consume 1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/UDP EEG Data/Receive 1/UDP Consume 1</SLblockPath>
+            <isSrc>[0 1 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>UDP Rx 1</blkName>
+            <xpcblkName>UDP EEG Data/Receive 1/UDP Rx 1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/UDP EEG Data/Receive 1/UDP Rx 1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Buffer 1</sigName>
+              <xpcsigName>UDP EEG Data/Receive 1/Buffer 1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Extract 1/p1</sigName>
+              <xpcsigName>UDP EEG Data/Receive 1/Extract 1/p1</xpcsigName>
+              <sigWidth>1018</sigWidth>
+              <sigDim>[1018, 1]</sigDim>
+            </signal>
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Extract 1/p2</sigName>
+              <xpcsigName>UDP EEG Data/Receive 1/Extract 1/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>UDP Consume 1/p1</sigName>
+              <xpcsigName>UDP EEG Data/Receive 1/UDP Consume 1/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>UDP Consume 1/p2</sigName>
+              <xpcsigName>UDP EEG Data/Receive 1/UDP Consume 1/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>UDP Rx 1</sigName>
+              <xpcsigName>UDP EEG Data/Receive 1/UDP Rx 1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+
+
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>UDP EEG Data/Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/UDP EEG Data/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 330]</dim>  
+          </parameter>
+          </block>
+
+
+
+ 
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>UDP EEG Data/Gain</xpcblkName>
+            <SLblockPath>quadripulse_controller14/UDP EEG Data/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Matrix
+Concatenate</sigName>
+              <xpcsigName>UDP EEG Data/Matrix Concatenate</xpcsigName>
+              <sigWidth>1320</sigWidth>
+              <sigDim>[4, 330]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion</sigName>
+              <xpcsigName>UDP EEG Data/Data Type Conversion</xpcsigName>
+              <sigWidth>330</sigWidth>
+              <sigDim>[330, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Flip</sigName>
+              <xpcsigName>UDP EEG Data/Flip</xpcsigName>
+              <sigWidth>990</sigWidth>
+              <sigDim>[3, 330]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>UDP EEG Data/Gain</xpcsigName>
+              <sigWidth>330</sigWidth>
+              <sigDim>[330, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Math
+Function</sigName>
+              <xpcsigName>UDP EEG Data/Math Function</xpcsigName>
+              <sigWidth>330</sigWidth>
+              <sigDim>[5, 66]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Reshape</sigName>
+              <xpcsigName>UDP EEG Data/Reshape</xpcsigName>
+              <sigWidth>990</sigWidth>
+              <sigDim>[3, 330]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Reshape2</sigName>
+              <xpcsigName>UDP EEG Data/Reshape2</xpcsigName>
+              <sigWidth>330</sigWidth>
+              <sigDim>[66, 5]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Byte Unpacking </sigName>
+              <xpcsigName>UDP EEG Data/Byte Unpacking </xpcsigName>
+              <sigWidth>330</sigWidth>
+              <sigDim>[330, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+      
+
+
+
+ 
+            <block>
+            <blkName>Compare
+To Constant</blkName>
+            <xpcblkName>Compare To Constant</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Constant</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Compare
+To Constant1</blkName>
+            <xpcblkName>Compare To Constant1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Constant1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Compare
+To Constant2</blkName>
+            <xpcblkName>Compare To Constant2</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Constant2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Compare
+To Constant3</blkName>
+            <xpcblkName>Compare To Constant3</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Compare To Constant3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>const</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+            <block>
+            <blkName>S-R
+Flip-Flop</blkName>
+            <xpcblkName>S-R Flip-Flop</xpcblkName>
+            <SLblockPath>quadripulse_controller14/S-R Flip-Flop</SLblockPath>
+            <isSrc>[0 2 2]</isSrc>
+          <parameter>
+          <paramName>initial_condition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+            <block>
+            <blkName>Constant4</blkName>
+            <xpcblkName>Constant4</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Constant4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+ 
+            <block>
+            <blkName>Constant6</blkName>
+            <xpcblkName>Constant6</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Constant6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+
+ 
+            <block>
+            <blkName>AC Mode Scaling Factor</blkName>
+            <xpcblkName>AC Mode Scaling Factor</xpcblkName>
+            <SLblockPath>quadripulse_controller14/AC Mode Scaling Factor</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Hit 
+Crossing</blkName>
+            <xpcblkName>Hit  Crossing</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Hit  Crossing</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>HitCrossingOffset</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+
+ 
+            <block>
+            <blkName>PD2-MF 12bit series</blkName>
+            <xpcblkName>PD2-MF 12bit series</xpcblkName>
+            <SLblockPath>quadripulse_controller14/PD2-MF 12bit series</SLblockPath>
+            <isSrc>[0 4 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 4]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 4]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 4]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 23]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Parallel Port DO </blkName>
+            <xpcblkName>Parallel Port DO </xpcblkName>
+            <SLblockPath>quadripulse_controller14/Parallel Port DO </SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P8</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>P9</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+
+
+
+ 
+            <block>
+            <blkName>Manual Switch</blkName>
+            <xpcblkName>Manual Switch</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Manual Switch</SLblockPath>
+            <isSrc>[0 2 1]</isSrc>
+          <parameter>
+          <paramName>CurrentSetting</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Buffer</blkName>
+            <xpcblkName>Buffer</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Buffer</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>ic</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Delay1</blkName>
+            <xpcblkName>Delay1</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Delay1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>DelayLength</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+ 
+            <block>
+            <blkName>Delay2</blkName>
+            <xpcblkName>Delay2</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Delay2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>DelayLength</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+ 
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+ 
+            <block>
+            <blkName>Unit Delay</blkName>
+            <xpcblkName>Unit Delay</xpcblkName>
+            <SLblockPath>quadripulse_controller14/Unit Delay</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+
+    
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Vector
+Concatenate</sigName>
+              <xpcsigName>Vector Concatenate</xpcsigName>
+              <sigWidth>1024</sigWidth>
+              <sigDim>[512, 2]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion</sigName>
+              <xpcsigName>Data Type Conversion</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>Data Type Conversion1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>Data Type Conversion2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion3</sigName>
+              <xpcsigName>Data Type Conversion3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion4</sigName>
+              <xpcsigName>Data Type Conversion4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Data Type Conversion5</sigName>
+              <xpcsigName>Data Type Conversion5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>AC Mode Scaling Factor</sigName>
+              <xpcsigName>AC Mode Scaling Factor</xpcsigName>
+              <sigWidth>66</sigWidth>
+              <sigDim>[1, 66]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Hit 
+Crossing</sigName>
+              <xpcsigName>Hit  Crossing</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Product</sigName>
+              <xpcsigName>Product</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Rate Transition1</sigName>
+              <xpcsigName>Rate Transition1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Rate Transition2</sigName>
+              <xpcsigName>Rate Transition2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Rate Transition3</sigName>
+              <xpcsigName>Rate Transition3</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Reshape1</sigName>
+              <xpcsigName>Reshape1</xpcsigName>
+              <sigWidth>66</sigWidth>
+              <sigDim>[1, 66]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Row</sigName>
+              <xpcsigName>Row</xpcsigName>
+              <sigWidth>65</sigWidth>
+              <sigDim>[65, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Row1</sigName>
+              <xpcsigName>Row1</xpcsigName>
+              <sigWidth>65</sigWidth>
+              <sigDim>[1, 65]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Derepeat</sigName>
+              <xpcsigName>Derepeat</xpcsigName>
+              <sigWidth>66</sigWidth>
+              <sigDim>[1, 66]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Now</sigName>
+              <xpcsigName>Now</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Remove Edges
+(first &amp; last 64)</sigName>
+              <xpcsigName>Remove Edges (first &amp; last 64)</xpcsigName>
+              <sigWidth>384</sigWidth>
+              <sigDim>[384, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Single Row</sigName>
+              <xpcsigName>Single Row</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[1, 2]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Switch</sigName>
+              <xpcsigName>Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Switch1</sigName>
+              <xpcsigName>Switch1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Manual Switch</sigName>
+              <xpcsigName>Manual Switch</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Buffer</sigName>
+              <xpcsigName>Buffer</xpcsigName>
+              <sigWidth>512</sigWidth>
+              <sigDim>[512, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Delay1</sigName>
+              <xpcsigName>Delay1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Delay2</sigName>
+              <xpcsigName>Delay2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Highpass Filter</sigName>
+              <xpcsigName>Highpass Filter</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[1, 2]</sigDim>
+            </signal>
+
+
+    
+    
+
+
+  
+              
+
+              
+       
+              <signal>
+              <sigName>Unit Delay</sigName>
+              <xpcsigName>Unit Delay</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+<block>
+   <blkName>Model Parameters</blkName>
+   <xpcblkName>Model Parameters</xpcblkName>
+   <SLblockPath>. </SLblockPath>
+   <isSrc>[0 1 1]</isSrc>
+              
+   <parameter>
+      <paramName>amplitudeinterval</paramName>
+          <dim>[1,2]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>amplitudeinterval_percentiles</paramName>
+          <dim>[1,2]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>fft_bin_indices_zero_based</paramName>
+          <dim>[1,2]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>fir_filter_coefficients</paramName>
+          <dim>[1,129]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>phasecondition</paramName>
+          <dim>[1,1]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>spatial_filter</paramName>
+          <dim>[1,65]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>timeinsecondsandtriggerchannel</paramName>
+          <dim>[2,2]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>marker_id</paramName>
+          <dim>[1,1]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>closedloopmode</paramName>
+          <dim>[1,1]</dim>
+   </parameter>
+              
+   <parameter>
+      <paramName>reset</paramName>
+          <dim>[1,1]</dim>
+   </parameter>
+</block>
+</Root>
